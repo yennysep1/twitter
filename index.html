@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitter</title>
+    <!-- LINKS OTRAS CARPETAS / TIPOGRAFIA / ICONOS-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+      <!-- IMG FAVICON -->
+    <link rel="icon" type="image/png" href="./img/twitter.png">
+  </head>
+  <!-- CUERPO DE LA PAGINA WEB-->
+  <body>
+    <header>
+      <nav class="navbar ">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header col-xs-12 col-lg-12">
+              <h1 class="text-center">Lista de Tareas</h1>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <!-- SECCION PARA AGREGAR TAREA-->
+    <section id="nueva-tarea">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <textarea id="agregar-tarea" class="form-control" rows="3" placeholder="Nueva tarea..."></textarea>
+            <button type="button" id="btn" onclick="btnAgregar()" class="btn btn-primary fa fa-plus-circle"> Agregar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- SECCION PARA ALMACENAR TAREAS-->
+    <section id="listas-de-tareas">
+      <div class="container mis-tareas" id="contenedor-tareas">
+      <p class="enunciado">Mis tareas...</p>
+      </div>
+    </section>
+    <!-- LINK JS Y JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='js/main.js'></script>
+  </body>
+</html>

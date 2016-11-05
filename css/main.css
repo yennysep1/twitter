@@ -1,0 +1,41 @@
+/* backgroun nubes */
+body{
+	background-image: url("../img/bg.jpg"); 
+	background-repeat: no-repeat;
+}
+/* backgroun nav*/
+.navbar{
+	background-color: #01A9DB;
+}
+/* estilos del titulo*/
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	font-weight: bold;
+}
+
+.btn{
+	margin-top: 20px;
+}
+
+.mis-tareas {
+	margin: 20px 20px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	
+}
+p.enunciado{
+	text-align: center;
+	color: #fff;
+	padding-top: 5px;
+}
+/* clase asociada -> function tacharTarea*/
+.tachar{
+	text-decoration:line-through;
+}
+/* clase asociada -> function tareaFavorita*/
+.favorita{
+	color: yellow;
+}
+
+
